@@ -21,7 +21,7 @@ err := k8speer.WatchPeers(ctx, ll, clientset, serviceName, namespace, groupcache
 })
 ```
 
-If you were using `venmo/galaxycache` it would look like:
+If you were using `vimeo/galaxycache` the `universe` in the above example comes like:
 
 ```go
 import gchttp "github.com/vimeo/galaxycache/http"
